@@ -4,7 +4,8 @@ import DoB from "./DOB";
 import PhoneNumber from "./PhoneNumber";
 import Region from "./Region";
 import InterestedProgram from "./ProgramInterest";
-import RegionAndCity from "./RegionAndCity";
+// import RegionAndCity from "./RegionAndCity";
+import City from "./City";
 const Form = () => {
     return(
             <form className="Student_form ">
@@ -23,7 +24,10 @@ const Form = () => {
                     Address
                     <input type="text" placeholder="Address" maxLength="200"/>
                     <div className="City_Region ">
-                       <RegionAndCity/>
+                        <p>Region</p>
+                       <Region/>
+                       <p>City </p>
+                       <City/>
                     </div>
                 </div>
                 <div className="Contact_info">

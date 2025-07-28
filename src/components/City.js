@@ -14,14 +14,13 @@ const City = () => {
             value={city}
             onChange={handleChange}
           >
-            <option value="" aria-placeholder="">-- Choose city --</option>
+            <option value="">-- Choose city --</option>
             <option value="Lahore">Lahore</option>
             <option value="Gujranwala">Gujranwala</option>
             <option value="Gujrat">Gujrat</option>
             <option value="Islamabad">Islamabad</option>
           </select>
         </label>
-      
     </form>
   );
 };

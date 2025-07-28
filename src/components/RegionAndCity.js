@@ -34,7 +34,6 @@ const RegionAndCity = () => {
   return (
     <div>
       <h3>Select Region and City</h3>
-
       <label>Region:</label>
       <select value={region} onChange={handleRegionChange}>
         <option value="">-- Select Region --</option>
@@ -44,7 +43,6 @@ const RegionAndCity = () => {
           </option>
         ))}
       </select>
-
       {region && (
         <>
           <br />
