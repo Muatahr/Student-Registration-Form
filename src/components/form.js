@@ -2,10 +2,10 @@ import Gender from "./Gender";
 import Degree_level from "./Degree_level";
 import DoB from "./DOB";
 import PhoneNumber from "./PhoneNumber";
-import Region from "./Region";
+// import Region from "./Region";
 import InterestedProgram from "./ProgramInterest";
-// import RegionAndCity from "./RegionAndCity";
-import City from "./City";
+import RegionAndCity from "./RegionAndCity";
+// import City from "./City";
 const Form = () => {
     return(
             <form className="Student_form ">
@@ -24,10 +24,7 @@ const Form = () => {
                     Address
                     <input type="text" placeholder="Address" maxLength="200"/>
                     <div className="City_Region ">
-                        <p>Region</p>
-                       <Region/>
-                       <p>City </p>
-                       <City/>
+                       <RegionAndCity/>
                     </div>
                 </div>
                 <div className="Contact_info">
