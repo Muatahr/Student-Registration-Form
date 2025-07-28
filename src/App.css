@@ -1,0 +1,119 @@
+.Heading {
+  background-color: rgba(95, 94, 94, 0.808);
+  color: bisque;
+  padding: 30px 30px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 30px auto 10px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.Heading h2 {
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: 600px;
+  letter-spacing: 1px;
+}
+.Student_form {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: bisque;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Student_form select{
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.StudentName input{
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.DoB input{
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Address input{
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Contact_info input{
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Student_form input:focus,
+.Student_form select:focus {
+  outline: none;
+  border-color: #ffa600ee;
+  box-shadow: 0 0 0 2px rgba(49, 49, 49, 0.2);
+}
+
+.StudentName input {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.StudentName input:first-child {
+  margin-bottom: 10px;
+}
+
+.City_Region {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.City_Region > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.Student_form button {
+  margin-top: 20px;
+  padding: 16px 16px;
+  background-color:rgba(95, 94, 94, 0.808);
+  color: whitesmoke;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+.Student_form button:hover {
+  background-color: #292929e0;
+}
+
+
+
